@@ -1,6 +1,6 @@
 var https = require('https');
 
-function getAndPrintHTML (options, callback){
+function getHTML (options, callback){
 
 
 
@@ -32,4 +32,4 @@ var requestOptions = {
 
 
 
-getAndPrintHTML(requestOptions, printHTML);
+getHTML(requestOptions, printHTML);
