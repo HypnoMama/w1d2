@@ -1,0 +1,11 @@
+{
+  "name": "avatar_download_project",
+  "version": "1.0.0",
+  "description": "command line HTTP client that downloads the avatars from a given github user and repository",
+  "main": "download_avatars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarah Hermsen",
+  "license": "ISC"
+}
