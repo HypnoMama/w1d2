@@ -1,6 +1,6 @@
 var getHMTL = require('../http-functions');
 
-function printUppercase(html) {
+function printLowerCase(html) {
   console.log(html.toLowerCase())
 }
 
@@ -9,4 +9,4 @@ var requestOptions = {
   path: '/http-examples/step6/lowercase.html'
 };
 
-getHMTL(requestOptions, printUppercase)
+getHMTL(requestOptions, printLowerCase)
